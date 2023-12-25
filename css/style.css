@@ -1,0 +1,105 @@
+body {
+    background-image: -webkit-linear-gradient(#06384c, #044b43);
+}
+
+.header {
+    background-color: rgb(13, 211, 59);
+    height: 12vh;
+    margin: 10px 10px;
+    padding-top: 3px;
+    border-radius: 30px;
+    opacity: 0.81;
+    box-shadow: 2px 4px 5px #ccccff;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: italic;
+    color: blueviolet;
+    text-shadow: 4px 4px 4px slateblue, -4px 5px 3px #e8e8e8;
+    font-family: cursive;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    transform: translateY(4px);
+    height: 8vh;
+}
+
+img {
+    height: 200px;
+    transition: transform 0.7s;
+    transition-timing-function: ease-in-out;
+}
+
+.card-title {
+    text-transform: capitalize;
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-size: 170%;
+}
+
+.card-text {
+    font-weight: 500;
+    color: #ccccff;
+}
+
+.card-text:hover {
+    font-weight: 500;
+    color: #044b43
+}
+
+.card .card-body {
+    background-color: #5b4839;
+    transition: transform 0.5s;
+    transition-timing-function: ease-out;
+}
+
+img:hover {
+    border-style: double;
+    border-width: 4px;
+    transform: scale(1.12, 1.22);
+}
+
+.extra {
+    width: 18rem;
+    border-width: 2px;
+    border-color: #ffecd1;
+}
+
+.extra:hover {
+    box-shadow: 9px 9px 15px #e8e8e8;
+}
+
+.card-body:hover {
+    background-color: darkseagreen;
+}
+
+.heading::selection {
+    text-decoration: none;
+    cursor: none;
+}
+
+.btn {
+    background-color: #c17a4b;
+    border-color: rgb(133, 66, 66);
+}
+
+.btn:hover {
+    background-color: #044b43;
+    border-color: #044b43;
+}
+
+.btn:active,
+.btn:focus {
+    background-color: #06384c;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.carousal {
+    height: 23vw;
+}
