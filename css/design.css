@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+.text-clip {
+    font-size: 100px;
+    font-family: 'Playball';
+    font-weight: bolder;
+    letter-spacing: 3px;
+    background-image: linear-gradient(#080910, #9b59b6, #00ff95);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading {
+    text-align: center;
+    box-shadow: 4px 5px 10px #38AECC;
+}
+
+body {
+    background-image: -webkit-linear-gradient(#022F40, #38AECC);
+}
+
+img {
+    height: 80vh;
+    padding: 10px 120px;
+}
+
+.carousel-control-prev-icon {
+    color: azure;
+}
